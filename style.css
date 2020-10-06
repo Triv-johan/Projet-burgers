@@ -2,7 +2,9 @@ html header {
     
 }
 body {
-   
+    
+    height:auto;
+    width: auto;
     background-size: cover;
     background-color: black !important;
 }
@@ -64,11 +66,14 @@ hr{
     color: red !important;
 }
 div.imagemenugauche{
-    float:left;
+    
+    float: left;
+    
 }
 div.imagemenudroite{
-    position:relative;
-    right: -30%;
+
+   float: right;
+    
 }
 div.Logo{
 
@@ -85,6 +90,7 @@ div.button{
 div.imageaccueil{
 
     margin-top: -10px;
+    margin: auto;
     
 }
     
