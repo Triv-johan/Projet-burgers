@@ -27,7 +27,7 @@ h1 {
 }
 h2 {
 
-    text-shadow: 3px 3px 3px gray;
+    text-shadow: 3px 3px 3px goldenrod;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder !important;
@@ -53,9 +53,7 @@ h6 {
 li {
     color: goldenrod;
 }
-div {
-    text-align: center;
-}
+
 button {
 
     color: rgb(255, 255, 255);
@@ -68,25 +66,10 @@ button {
 hr{
     color: red !important;
 }
-div.imagemenugauche{
-    
-    
-    float: left;
-    width: 500px;
-    height: 350px;
-    margin-left: 50px;
-    
-}
-div.imagemenudroite{
 
-   float: right;
-   width: 500px;
-   height: 350px; 
-   margin-right: 50px;
-}
 div.Logo{
 
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px goldenrod;
     position: relative;
     margin-top: 30px !important;
     margin-left: 100px;
@@ -111,13 +94,44 @@ div.imageaccueil{
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    
 }
-div.listburgers{
+    
+.h1accueil{
+    font-size:8vw!important
+}
+.imagemenugauche{
 
+    left: 350px;
+    position: absolute;
+    float: left;
+}
+.imagemenudroite{
+
+    right: 350px;
+    position:absolute;
+    float: right !important;
+
+}
+    
+
+.burger1{
+
+    margin-left: 20px;
+    text-align:left;
+    position:relative;
+    float: left;
+}
+.burger2{
+    
+    margin-right: 50px;
+    text-align:left;
     position: relative;
-    float: initial;
-
-}
+    float: right; 
     
-.h1accueil{font-size:8vw!important}
+}
+.burger3{
+    
+    position: relative;
+    float:left;
+    margin-left: 500px;
+}
