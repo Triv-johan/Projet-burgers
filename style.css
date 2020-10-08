@@ -100,18 +100,18 @@ div.imageaccueil{
 
 
     
+    width: 100vw;
     background: url(images/burger-1830695_1920.jpg);
     background-size: cover !important;
-    overflow: hidden;
     text-align: left;
 }
 .col1{
     
-    margin-left: 150px;
+    margin-left: 50px;
     
 }
 
 .col2{
     
-    margin-left: 150px;
+    margin-left: 50px;
 }
