@@ -115,3 +115,119 @@ div.imageaccueil{
     
     margin-left: 50px;
 }
+
+.bar{
+
+    text-align: center;
+    height:140%;
+    width: 100vw;
+    background-size: cover;
+    position:relative;
+    background: url(images/restaurant-2618315_1920.jpg);
+}
+.biere{
+position:absolute;
+    left:50%;
+    margin-top: 250px;
+}
+
+.soda{
+     position: absolute;
+     top: 50px;
+
+    
+}
+
+.Vodka{
+
+    left: 65%;
+    position:absolute;
+    margin-top: 400px;
+    
+    
+}
+
+.rhum{
+    left: 30%;
+position: absolute;
+margin-top: 10px;
+    
+    
+}
+
+.champagne{
+
+    left: 75%;
+    position: absolute;
+
+    
+}
+.whisky{
+
+position: absolute;
+left: 15%;
+margin-top: 150px;
+}
+
+.logobar{
+
+    float: right;
+    margin-top: 700px;
+    margin-right: 50px;
+}
+
+.café{
+     text-align: center;
+     position:relative;
+    background: url(images/caffeine-1846280_1920.jpg);
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+     
+}
+
+.boissonschaudes{
+
+    float: left;
+    margin-left: 250px;
+    margin-top: 250px;
+   
+
+}
+
+
+.viennoiseries{
+    float: right;
+    margin-right: 250px;
+    margin-top: 250px;
+}
+
+.maps{
+
+    float:right;
+}
+
+.contact{
+
+    text-align: center;
+}
+
+.logofooter{
+
+    margin-top: 352px;
+    position: absolute;
+    float: left;
+}
+
+.backgroundfooter{
+
+    overflow: hidden;
+    height: 55%;
+    width: 100%;
+    background-size:cover;
+    background: url(images/concrete-texture-abstract-hd-wallpaper-1920x1080-5954.jpg);
+}
+
+
