@@ -125,7 +125,6 @@ div.imageaccueil {
     height: 140%;
     width: 100vw;
     background-size: cover;
-    position: relative;
     background: url("images/restaurant-2618315_1920.jpg");
 }
 .biere {
@@ -136,7 +135,7 @@ div.imageaccueil {
 
 .soda {
     position: absolute;
-    top: 50px;
+
 
 }
 
@@ -178,7 +177,6 @@ div.imageaccueil {
 
 .café {
     text-align: center;
-    position: relative;
     background: url("images/caffeine-1846280_1920.jpg");
     background-position: center;
     overflow: hidden;
@@ -222,6 +220,7 @@ div.imageaccueil {
 
 .backgroundfooter {
 
+
     overflow: hidden;
     height: 55%;
     width: 100%;
@@ -231,5 +230,17 @@ div.imageaccueil {
 a{
     color:white !important;
 }
+
+.top{
+    
+
+position: fixed;
+left:95%;
+bottom: 2%;
+}
+
+/* version tablette */
+
+
 
 
