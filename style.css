@@ -476,18 +476,24 @@ bottom: 2%;
     a{
         color:white !important;
     }
+
     .top{
-        
-        
+    
+
         position: fixed;
-    left:95%;
-    bottom: 2%;
-    }
+        left:95%;
+        bottom: 2%;
+        }
+   
     
 }
 /* version mobile */
 
-@media screen and(max-width:812px){
+@media only screen
+
+ and (min-device-width: 375px)
+
+  and (max-device-width: 812px){
     body {
 
         height: 100vh;
@@ -727,7 +733,9 @@ bottom: 2%;
     left:95%;
     bottom: 2%;
     }
-}
+  }
+    
+   
 
 
 
