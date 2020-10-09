@@ -317,10 +317,10 @@ bottom: 2%;
     div.Logo {
     
         box-shadow: 2px 2px 2px orange;
-        position: relative;
+        position: relative !important;
         margin-top: 30px !important;
-        margin-left: 50px!important;;
-        float: left;
+        right: 80px;
+       
     
     }
     div.button {
@@ -367,7 +367,7 @@ bottom: 2%;
     .bar {
     
         text-align: center;
-        height: 95% !important;;
+        height: 140% !important;;
         width: 100vw;
         background-size: cover;
         position: relative;
@@ -469,7 +469,7 @@ bottom: 2%;
     .backgroundfooter {
     
         overflow: hidden;
-        height: 100% !important;;
+        height: 90% !important;;
         width: 100%;
         background-size: cover;
         background: url("images/concrete-texture-abstract-hd-wallpaper-1920x1080-5954.jpg");
@@ -681,17 +681,6 @@ bottom: 2%;
     }
       
     
-    .maps {
-
-       
-        
-        
-        
-
-        
-    
-    }
-    
     .contact {
 
         top: 450px;
@@ -716,7 +705,7 @@ bottom: 2%;
     .backgroundfooter {
         background: url(images/concrete-texture-abstract-hd-wallpaper-1920x1080-5954.jpg) !important;
         background-size: cover;
-        height: 120%;
+        height: 130% !important;;
         width:100%;
         position: absolute;
         
